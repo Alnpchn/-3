@@ -4,17 +4,17 @@ void main(void)
 {
 	setlocale(LC_ALL, "RUS");
 	int num, A, k;
-	puts("введите число", "\n");
+	puts("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ", "\n");
 	scanf("%d", &num);
 	A = num;
-	puts("введено число A");
-	puts("введите число B");
+	puts("РІРІРµРґРµРЅРѕ С‡РёСЃР»Рѕ A");
+	puts("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ B");
 	scanf("%d", &k);
-	puts("введено число B");
+	puts("РІРІРµРґРµРЅРѕ С‡РёСЃР»Рѕ B");
 
 	printf("A+B=%=%d\n", k + num);
 	printf("A-B=%=%d\n", num - k);
 	printf("A*B=%=%d\n", k * num);
-	printf("частное B/A %=%d\n", k / num);
-	printf("остаток B/A=%=%d\n", k % num);
+	printf("С‡Р°СЃС‚РЅРѕРµ B/A %=%d\n", k / num);
+	printf("РѕСЃС‚Р°С‚РѕРє РѕС‚ B/A=%=%d\n", k % num);
 }
