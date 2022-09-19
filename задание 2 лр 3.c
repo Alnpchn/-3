@@ -7,12 +7,12 @@ void main(void)
 	setlocale(LC_ALL, "RUS");
 	int dym, pulgada;
 	float result;
-	puts("введите расстояние в дюймах");
+	puts("РІРІРµРґРёС‚Рµ СЂР°СЃСЃС‚РѕСЏРЅРёРµ РІ РґСЋР№РјР°С…");
 	scanf("%d", &dym);
 	result = D * dym;
-	printf("%d дюймов-это%.1f см", dym, result);
-
+	printf("%d РґСЋР№РјРѕРІ-СЌС‚Рѕ%.1f СЃРј", dym, result);
+        puts("РІРІРµРґРёС‚Рµ СЂР°СЃСЃС‚РѕСЏРЅРёРµ РІ РґСЋР№РјР°С…")
 	scanf("%d", &pulgada);
 	result = H * pulgada;
-	printf("%d дюймов-это %.1f см", pulgada, result);
+	printf("%d РґСЋР№РјРѕРІ-СЌС‚Рѕ %.1f СЃРј", pulgada, result);
 }
