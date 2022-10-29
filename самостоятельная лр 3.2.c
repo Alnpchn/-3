@@ -1,20 +1,19 @@
 #include<stdio.h>
 #include <locale.h>
-#define U 400
-int name(int R)
+float name(float U, float R)
 {
-	int I;
-	I = U / R;
-	return R;
+	float result = U/R;
+	return result;
 }
-void main(void)
+int main(void)
 {
 	setlocale(LC_ALL, "RUS");
-	int R;
-	float I;
-	puts("введите значение сопротивления");
+	float U, R, I;
+	puts("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ РЅР°РїСЂСЏР¶РµРЅРёСЏ");
+	scanf("%d", &U);
+	puts("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ СЃРѕРїСЂРѕС‚РёРІР»РµРЅРёСЏ");
 	scanf("%d", &R);
-	I = name(R);
-	printf("при сопротивлении %d Ом сила тока равна %.1f А", R, I);
-
+	I= name(U, R);
+	printf("СЃРёР»Р° С‚РѕРєР° СЂР°РІРЅР° %lf", I);
+	return 0;
 }
