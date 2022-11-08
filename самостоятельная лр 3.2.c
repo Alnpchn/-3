@@ -10,9 +10,9 @@ int main(void)
 	setlocale(LC_ALL, "RUS");
 	float U, R, I;
 	puts("введите значение напряжения");
-	scanf("%d", &U);
+	scanf("%f", &U);
 	puts("введите значение сопротивления");
-	scanf("%d", &R);
+	scanf("%f", &R);
 	I= name(U, R);
 	printf("сила тока равна %lf", I);
 	return 0;
